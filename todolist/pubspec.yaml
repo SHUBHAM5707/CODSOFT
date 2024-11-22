@@ -1,0 +1,54 @@
+name: todolist
+publish_to: 'none'
+
+
+
+environment:
+  sdk: ^3.5.4
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+
+  cupertino_icons: ^1.0.8
+  # random number generation
+  uuid: ^4.5.1
+  #for animation
+  animate_do: ^3.3.4
+  #for dialogs
+  panara_dialogs: ^0.1.5
+  #for json animations
+  lottie: ^3.1.3
+
+  #for toasting msg
+  ftoast: ^2.0.0
+  #slider
+  flutter_slider_drawer: ^2.1.3
+  #date picker
+  flutter_cupertino_date_picker_fork: ^1.0.7
+
+#DATABASE
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+
+  #provide localization facility
+  intl: ^0.19.0
+  hive_generator: ^2.0.1
+  build_runner: ^2.4.13
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^4.0.0
+
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/img/
+    - assets/lotties/
